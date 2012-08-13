@@ -1,5 +1,5 @@
 main = print (sum [ x 
-	| x <- takeWhile(\x -> x < 4000000)(map fib [0 ..]) ++ [], x `mod` 2 == 0 ])
+	| x <- takeWhile(\x -> x < 4000000)(map fib [0 ..]) ++ [], even x ])
 
 fib :: Integer -> Integer
 fib n
