@@ -1,6 +1,6 @@
 import Data.List
 
-main = print(factors 6854121)
+main = print(factors 10000)
 
 sieve :: Integer -> [Integer]
 sieve m = 
